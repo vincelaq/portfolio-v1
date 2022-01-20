@@ -15,13 +15,18 @@ module.exports = {
       'light-slate': '#a8b2d1',
       'lightest-slate': '#ccd6f6',
       'green': '#64ffda',
-      'pink': '#ea00d9'
+      'pink': '#ff00ed'
     },
     fontFamily: {
       'Inter': ['Inter', 'system-ui', 'sans-serif'],
       'Roboto': ["Roboto Mono", 'monospace'],
     },
-    extend: {},
+    extend: {
+      fontSize: {
+        'xs-sm': '.8rem',
+        '6-7xl': '4.5rem',
+      },
+    },
   },
   plugins: [],
 }
