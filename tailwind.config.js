@@ -19,7 +19,7 @@ module.exports = {
     },
     fontFamily: {
       'Inter': ['Inter', 'system-ui', 'sans-serif'],
-      'Roboto': ['Roboto Mono', 'monospace'],
+      'Roboto': ["Roboto Mono", 'monospace'],
     },
     extend: {},
   },
