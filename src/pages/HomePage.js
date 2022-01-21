@@ -3,7 +3,7 @@ import React from 'react';
 const HomePage = () => {
     return (
         <div className='flex flex-col justify-start bg-navy h-full'>
-            <div className='mx-auto my-48 pr-20'>
+            <div className='mx-auto my-52 pr-52'>
                 <div className='font-Roboto font-regular text-pink mb-10 text-base'>
                     Hi, my name is
                 </div>

@@ -24,6 +24,15 @@ code {
   background: white;
 }
 
+ul.work-list {
+  display: grid;
+
+  padding: 0;
+  margin: 20px 0 0 0;
+  overflow: hidden;
+  list-style: none;
+}
+
 ul.skills-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -48,5 +57,5 @@ li:before {
   left: 0;
   color: #ff00ed;
   font-size: 1rem;
-  line-height: 18px;
+  line-height: 16px;
 }

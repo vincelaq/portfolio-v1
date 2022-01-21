@@ -5,6 +5,7 @@ import './App.css';
 import Navigation from './components/Navigation';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import WorkPage from './pages/WorkPage';
 
 
 
@@ -61,9 +62,10 @@ const App = () => {
                             <div className='border-l border-l-light-slate h-40 mx-auto mt-3'></div>
                         </div>
                     </section>
-                    <main className='basis-10/12'>
+                    <main className='basis-10/12 flex flex-col items-center'>
                         <HomePage/>
                         <AboutPage/>
+                        <WorkPage/>
                     </main>
                     <section className='bg-navy basis-1/12 relative'>
                         <div className='flex flex-col fixed bottom-0 -right-5 justify-center items-center'>
