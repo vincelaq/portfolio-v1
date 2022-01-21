@@ -6,6 +6,7 @@ import Navigation from './components/Navigation';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import WorkPage from './pages/WorkPage';
+import ProjectPage from './pages/ProjectPage';
 
 
 
@@ -66,6 +67,7 @@ const App = () => {
                         <HomePage/>
                         <AboutPage/>
                         <WorkPage/>
+                        <ProjectPage/>
                     </main>
                     <section className='bg-navy basis-1/12 relative'>
                         <div className='flex flex-col fixed bottom-0 -right-5 justify-center items-center'>

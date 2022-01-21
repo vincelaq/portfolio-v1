@@ -8,7 +8,7 @@ const WorkPage = () => {
 
 
     return (
-        <div className='flex flex-col justify-start items-center bg-navy max-w-2xl pb-72 pl-16'>
+        <div className='flex flex-col justify-start items-center bg-navy max-w-2xl pb-96 mb-20 pl-16'>
             <div className='flex flex-row p-4 pl-0 w-full'>
                 <span className='font-Roboto text-pink text-xl mr-3'>02.</span> 
                 <span className='font-Inter font-bold text-lightest-slate text-2xl'>Work Experience</span>

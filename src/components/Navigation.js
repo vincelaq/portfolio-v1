@@ -32,7 +32,7 @@ const Navigation = () => {
                         </div>
                         <div className='my-auto mx-4'>
                             <span className='font-Roboto text-xs-sm text-pink'>03.</span>
-                            <span className='font-Roboto font-regular text-xs-sm text-light-slate ml-2'>Work</span>
+                            <span className='font-Roboto font-regular text-xs-sm text-light-slate ml-2'>Projects</span>
                         </div>
                         <div className='my-auto mx-4'>
                             <span className='font-Roboto text-xs-sm text-pink'>04.</span>

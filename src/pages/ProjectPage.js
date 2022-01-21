@@ -1,0 +1,67 @@
+import React from 'react';
+
+
+const ProjectPage = () => {
+    
+    
+    return (
+        <div className='flex flex-col pl-32 pb-96 justify-start items-center bg-navy max-w-5xl'>
+            <div className='flex flex-row p-4 pl-0 w-full'>
+                <span className='font-Roboto text-pink text-xl mr-3'>03.</span> 
+                <span className='font-Inter font-bold text-lightest-slate text-2xl'>Projects</span>
+                <span className='border-b border-b-lightest-navy w-72 my-auto mx-6'></span>
+            </div>
+            <div className='flex flex-row pt-6 relative w-full'>
+                <div className='basis-2/5'>
+                    <div className='border border-pink w-96 h-60'>
+                    </div>
+
+                </div>
+                <div className='flex flex-col border border-pink basis-3/5 font-Inter text-slate justify-center w-96 '>
+            
+                    <div className='font-Roboto font-light text-xs-sm text-pink w-full text-right my-1'>
+                        Featured Project
+                    </div>
+                    <div className='font-Inter font-bold text-2xl w-full text-right mb-6'>
+                        Retro Future
+                    </div>
+                
+
+                    <div className='border border-lightest-slate bg-light-navy w-96 py-4 pr-6 pl-4 text-right'>
+                        A mininal contrasting theme for a retro resale e-commerce shop for retro video games, clothing, music, and more.
+                    </div>
+
+                    <div className='flex flex-row justify-end font-Roboto text-sm text-slate my-3'>
+                        <span className='px-4'>Django</span>
+                        <span className='px-4'>React</span>  
+                        <span className='px-4'>PostgreSQL</span>
+                        <span className='px-4'>AWS</span>
+                    </div>
+                    
+                    <div className='flex flex-row justify-end'>
+                        <div className='m-3'>
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#a8b2d1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6">
+                                <title>GitHub</title>
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            
+                        </div>
+                        <div className='m-3'>
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#a8b2d1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6">
+                                <title>External Link</title>
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    );
+};
+
+export default ProjectPage;
