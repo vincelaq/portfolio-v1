@@ -19,9 +19,11 @@ const HomePage = () => {
                     designing) applications. Currently, I’m focused on building a fullstack <br/>
                     applications for the non-profit <span className='text-pink'>NAAM House, Inc.</span>
                 </p>
-                <div className='border rounded border-pink text-pink font-Roboto text-s w-fit py-4 px-5 my-16'>
-                    Check out my project!
-                </div>
+                <a href="https://github.com/vincelaq/naam-house-app">
+                    <div className='border rounded border-pink text-pink font-Roboto text-s w-fit py-4 px-5 my-16'>
+                        Check out my project!
+                    </div>
+                </a>
             </div>
             
         </div>

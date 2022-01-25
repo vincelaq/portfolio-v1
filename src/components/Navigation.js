@@ -38,9 +38,11 @@ const Navigation = () => {
                             <span className='font-Roboto text-xs-sm text-pink'>04.</span>
                             <span className='font-Roboto font-regular text-xs-sm text-light-slate ml-2'>Contact</span>
                         </div>
-                        <div className='my-auto ml-4 mr-10 py-2 px-4 border rounded border-pink text-pink font-Roboto text-sm'>
-                            Resume
-                        </div>
+                        <a href="resume.pdf">
+                            <div className='my-auto ml-4 mr-10 py-2 px-4 border rounded border-pink text-pink font-Roboto text-sm'>
+                                Resume
+                            </div>
+                        </a>
                     </div>
                     
                 </div>

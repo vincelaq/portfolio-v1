@@ -30,8 +30,8 @@ const AboutPage = () => {
                     </ul>
                 </div>
                 <div className='basis-2/5'>
-                    <div className='border border-pink w-72 h-72 mx-10'>
-
+                    <div className='border bg-pink w-72 mx-10'>
+                        <img className='opacity-70' src="profile.jpeg"/>
                     </div>
                 </div>
             </div>

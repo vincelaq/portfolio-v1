@@ -59,3 +59,60 @@ li:before {
   font-size: 1rem;
   line-height: 16px;
 }
+
+.feature {
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(
+    1, 0, 0, 0, 0, 
+    1, 0, 0, 0, 0,
+    1, 0, 0, 0, 0, 1);
+  position: relative;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+
+.project-image-first {
+  grid-column: 1 / 8;
+  grid-area: 1 / 6 / -1 / -1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.project-content-first {
+  grid-column: 7 / -1;
+  grid-area: 1 / 1 / -1 / 7;
+  position: relative;
+  z-index: 1;
+}
+
+.project-content a {
+  background-color: #ff00ed;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.project-image-wrapper {
+ background-color: #ff00ed;
+
+}
+
+.project-image-second {
+  grid-column: 7 / -1;
+  grid-area: 1 / 1 / -1 / 8;
+  position: relative;
+  width: 100%;
+  height: 100%;
+ 
+}
+.project-content-second {
+  grid-column: 1 / 8;
+  grid-area: 1 / 7 / -1 / -1;
+  position: relative;
+  z-index: 1;
+}
