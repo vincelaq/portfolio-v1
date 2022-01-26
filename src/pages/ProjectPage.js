@@ -4,7 +4,7 @@ const ProjectPage = () => {
     
     
     return (
-        <div className='flex flex-col px-24 pb-60 justify-start items-center bg-navy max-w-6xl'>
+        <div id="project" className='flex flex-col px-24 pb-60 justify-start items-center bg-navy max-w-6xl'>
             <div className='flex flex-row p-4 pl-0 w-full'>
                 <span className='font-Roboto text-pink text-xl mr-3'>03.</span> 
                 <span className='font-Inter font-bold text-lightest-slate text-2xl'>Projects</span>

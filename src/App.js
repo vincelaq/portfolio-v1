@@ -14,7 +14,7 @@ import ContactPage from './pages/ContactPage';
 const App = () => {
     return (
         <Router>
-            <div className='h-screen bg-navy'>
+            <div className='h-screen bg-navy relative'>
                 <Navigation/>
                 <div className='flex flex-row h-full'>
                     <section className='bg-navy basis-1/12 relative h-full'>

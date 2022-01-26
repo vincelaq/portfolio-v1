@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navigation = () => {
     return (
-        <nav className='bg-navy'>
+        <nav className='bg-gradient-to-b from-navy sticky top-0 z-10'>
             <div className='mx-5 py-8'>
                 
                 <div className='flex flex-row mx-auto'>
@@ -22,21 +22,31 @@ const Navigation = () => {
 
                     </div>
                     <div className='flex flex-row basis-1/2 justify-end'>
+                       
                         <div className='my-auto mx-4'>
-                            <span className='font-Roboto text-xs-sm text-pink'>01.</span>
-                            <span className='font-Roboto font-regular text-xs-sm text-light-slate ml-2'>About</span>
+                            <a href="#about">
+                                <span className='font-Roboto text-xs-sm text-pink'>01.</span>
+                                <span className='font-Roboto font-regular text-xs-sm text-light-slate ml-2'>About</span>
+                            </a>
+                        </div>
+                        
+                        <div className='my-auto mx-4'>
+                            <a href="#work">
+                                <span className='font-Roboto text-xs-sm text-pink'>02.</span>
+                                <span className='font-Roboto font-regular text-xs-sm text-light-slate ml-2'>Experience</span>
+                            </a>
                         </div>
                         <div className='my-auto mx-4'>
-                            <span className='font-Roboto text-xs-sm text-pink'>02.</span>
-                            <span className='font-Roboto font-regular text-xs-sm text-light-slate ml-2'>Experience</span>
+                            <a href="#project">
+                                <span className='font-Roboto text-xs-sm text-pink'>03.</span>
+                                <span className='font-Roboto font-regular text-xs-sm text-light-slate ml-2'>Projects</span>
+                            </a>
                         </div>
                         <div className='my-auto mx-4'>
-                            <span className='font-Roboto text-xs-sm text-pink'>03.</span>
-                            <span className='font-Roboto font-regular text-xs-sm text-light-slate ml-2'>Projects</span>
-                        </div>
-                        <div className='my-auto mx-4'>
-                            <span className='font-Roboto text-xs-sm text-pink'>04.</span>
-                            <span className='font-Roboto font-regular text-xs-sm text-light-slate ml-2'>Contact</span>
+                            <a href="#contact">
+                                <span className='font-Roboto text-xs-sm text-pink'>04.</span>
+                                <span className='font-Roboto font-regular text-xs-sm text-light-slate ml-2'>Contact</span>
+                            </a>
                         </div>
                         <a href="resume.pdf">
                             <div className='my-auto ml-4 mr-10 py-2 px-4 border rounded border-pink text-pink font-Roboto text-sm'>

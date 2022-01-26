@@ -10,7 +10,7 @@ const WorkPage = () => {
 
     if (work === 0) {
         return (
-            <div className='flex flex-col justify-start items-center bg-navy max-w-2xl pb-40 mb-20 pl-16'>
+            <div id="work" className='flex flex-col justify-start items-center bg-navy max-w-2xl pb-40 mb-20 pl-16'>
                 <div className='flex flex-row p-4 pl-0 w-full'>
                     <span className='font-Roboto text-pink text-xl mr-3'>02.</span> 
                     <span className='font-Inter font-bold text-lightest-slate text-2xl'>Work Experience</span>
@@ -66,7 +66,7 @@ const WorkPage = () => {
 
     } else if (work === 1) {
         return (
-            <div className='flex flex-col justify-start items-center bg-navy max-w-2xl pb-40 mb-20 pl-16'>
+            <div id="work" className='flex flex-col justify-start items-center bg-navy max-w-2xl pb-40 mb-20 pl-16'>
                 <div className='flex flex-row p-4 pl-0 w-full'>
                     <span className='font-Roboto text-pink text-xl mr-3'>02.</span> 
                     <span className='font-Inter font-bold text-lightest-slate text-2xl'>Work Experience</span>
@@ -121,7 +121,7 @@ const WorkPage = () => {
         );
     } else if (work === 2) {
         return (
-            <div className='flex flex-col justify-start items-center bg-navy max-w-2xl pb-40 mb-20 pl-16'>
+            <div id="work" className='flex flex-col justify-start items-center bg-navy max-w-2xl pb-40 mb-20 pl-16'>
                 <div className='flex flex-row p-4 pl-0 w-full'>
                     <span className='font-Roboto text-pink text-xl mr-3'>02.</span> 
                     <span className='font-Inter font-bold text-lightest-slate text-2xl'>Work Experience</span>
@@ -176,7 +176,7 @@ const WorkPage = () => {
         );
     } else if (work === 3) {
         return (
-            <div className='flex flex-col justify-start items-center bg-navy max-w-2xl pb-40 mb-20 pl-16'>
+            <div id="work" className='flex flex-col justify-start items-center bg-navy max-w-2xl pb-40 mb-20 pl-16'>
                 <div className='flex flex-row p-4 pl-0 w-full'>
                     <span className='font-Roboto text-pink text-xl mr-3'>02.</span> 
                     <span className='font-Inter font-bold text-lightest-slate text-2xl'>Work Experience</span>

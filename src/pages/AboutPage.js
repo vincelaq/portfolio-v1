@@ -5,7 +5,7 @@ const AboutPage = () => {
     
     
     return (
-        <div className='flex flex-col ml-24 mb-72 justify-start items-center bg-navy max-w-4xl'>
+        <div id='about' className='flex flex-col ml-24 mb-72 justify-start items-center bg-navy max-w-4xl'>
             <div className='flex flex-row p-4 pl-0 w-full'>
                 <span className='font-Roboto text-pink text-xl mr-3'>01.</span> 
                 <span className='font-Inter font-bold text-lightest-slate text-2xl'>About Me</span>

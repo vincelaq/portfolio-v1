@@ -5,7 +5,7 @@ const ContactPage = () => {
     
     
     return (
-        <div className='flex flex-col mx-24 mb-72 justify-start items-center bg-navy max-w-6xl'>
+        <div id="contact" className='flex flex-col mx-24 mb-72 justify-start items-center bg-navy max-w-6xl'>
             
             <div className='font-Roboto text-pink text-base'>04. What's Next?</div> 
             <div className='font-Inter font-bold text-light-slate text-5xl pt-3 pb-5'>Get In Touch</div>
@@ -17,7 +17,7 @@ const ContactPage = () => {
             </div>
             <div className='text-slate font-Roboto text-xs text-center p-8'>
                 Built by Vincent Laquindanum<br/>
-                Beautifully Designed by Brittany Chiang
+                <a href="https://github.com/bchiang7/v4">Beautifully Designed by Brittany Chiang</a>
             </div>
             
         </div>
