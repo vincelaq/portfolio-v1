@@ -12,9 +12,11 @@ const ContactPage = () => {
             <div className='w-6/12 text-center font-Inter text-slate mb-12'>
                 I’m always looking for new exciting opportunities and projects so my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
             </div>
-            <div className='border border-pink py-4 px-8 text-pink rounded-md font-Roboto text-sm mb-56'>
-                Say Hello
-            </div>
+            <a href="mailto:laq.vince@gmail.com">
+                <div className='border border-pink py-4 px-8 text-pink rounded-md font-Roboto text-sm mb-56'>
+                    Say Hello
+                </div>
+            </a>
             <div className='text-slate font-Roboto text-xs text-center p-8'>
                 Built by Vincent Laquindanum<br/>
                 <a href="https://github.com/bchiang7/v4">Beautifully Designed by Brittany Chiang</a>
