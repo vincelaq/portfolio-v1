@@ -31,7 +31,7 @@ const AboutPage = () => {
                 </div>
                 <div className='basis-2/5'>
                     <div className='border bg-pink w-72 mx-10'>
-                        <img className='opacity-70' src="profile.jpeg"/>
+                        <img className='opacity-70' src="https://retro-future-flex-525.s3.us-west-1.amazonaws.com/portfolio/profile.jpeg"/>
                     </div>
                 </div>
             </div>

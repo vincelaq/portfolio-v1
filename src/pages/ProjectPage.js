@@ -54,7 +54,7 @@ const ProjectPage = () => {
                     <div className='project-image-second '>
                         <a>
                             <div className='project-image-wrapper object-fill'>
-                                <img className='w-full h-full opacity-60' src="retro-future.png" />
+                                <img className='w-full h-full opacity-60' src="https://retro-future-flex-525.s3.us-west-1.amazonaws.com/portfolio/retro-future.png" />
                             </div>
 
                         </a>
@@ -106,7 +106,7 @@ const ProjectPage = () => {
                     <div className='project-image-first '>
                         <a>
                             <div className='project-image-wrapper object-fill'>
-                                <img className='w-full h-full opacity-60' src="devbook.png" />
+                                <img className='w-full h-full opacity-60' src="https://retro-future-flex-525.s3.us-west-1.amazonaws.com/portfolio/devbook.png" />
                             </div>
 
                         </a>
@@ -156,7 +156,7 @@ const ProjectPage = () => {
                     <div className='project-image-second '>
                         <a>
                             <div className='project-image-wrapper object-fill'>
-                                <img className='w-full h-full opacity-60' src="historic-stops.png" />
+                                <img className='w-full h-full opacity-60' src="https://retro-future-flex-525.s3.us-west-1.amazonaws.com/portfolio/historic-stops.png" />
                             </div>
 
                         </a>
@@ -207,7 +207,7 @@ const ProjectPage = () => {
                     <div className='project-image-first '>
                         <a>
                             <div className='project-image-wrapper object-fill'>
-                                <img className='w-full h-full opacity-60' src="tron.png" />
+                                <img className='w-full h-full opacity-60' src="https://retro-future-flex-525.s3.us-west-1.amazonaws.com/portfolio/tron.png" />
                             </div>
 
                         </a>
