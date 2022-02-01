@@ -13,7 +13,7 @@ const ProjectPage = () => {
 
             <div className='my-12'>
                 <div className='feature'>
-                    <div className='project-content-second'>
+                    <div className='project-content-first'>
                         <div className='font-Roboto font-light text-xs-sm text-pink w-full text-right my-1'>
                             Featured Project
                         </div>
@@ -55,7 +55,7 @@ const ProjectPage = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='project-image-second '>
+                    <div className='project-image-first '>
                         <a>
                             <div className='project-image-wrapper object-fill'>
                                 <img className='w-full h-full opacity-60' src="https://retro-future-flex-525.s3.us-west-1.amazonaws.com/portfolio/retro-future.png" />
@@ -69,7 +69,7 @@ const ProjectPage = () => {
 
             <div className='my-12'>
                 <div className='feature'>
-                    <div className='project-content-first'>
+                    <div className='project-content-second'>
                         <div className='font-Roboto font-light text-xs-sm text-pink w-full text-left my-1'>
                             Featured Project
                         </div>
@@ -110,7 +110,7 @@ const ProjectPage = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='project-image-first '>
+                    <div className='project-image-second'>
                         <a>
                             <div className='project-image-wrapper object-fill'>
                                 <img className='w-full h-full opacity-60' src="https://retro-future-flex-525.s3.us-west-1.amazonaws.com/portfolio/devbook.png" />
@@ -122,7 +122,7 @@ const ProjectPage = () => {
 
             <div className='my-12'>
                 <div className='feature'>
-                    <div className='project-content-second'>
+                    <div className='project-content-first'>
                         <div className='font-Roboto font-light text-xs-sm text-pink w-full text-right my-1'>
                             Featured Project
                         </div>
@@ -160,7 +160,7 @@ const ProjectPage = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='project-image-second '>
+                    <div className='project-image-first '>
                         <a>
                             <div className='project-image-wrapper object-fill'>
                                 <img className='w-full h-full opacity-60' src="https://retro-future-flex-525.s3.us-west-1.amazonaws.com/portfolio/historic-stops.png" />
@@ -174,7 +174,7 @@ const ProjectPage = () => {
             
             <div className='my-12'>
                 <div className='feature'>
-                    <div className='project-content-first'>
+                    <div className='project-content-second'>
                         <div className='font-Roboto font-light text-xs-sm text-pink w-full text-left my-1'>
                             Featured Project
                         </div>
@@ -213,7 +213,7 @@ const ProjectPage = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='project-image-first '>
+                    <div className='project-image-second '>
                         <a>
                             <div className='project-image-wrapper object-fill'>
                                 <img className='w-full h-full opacity-60' src="https://retro-future-flex-525.s3.us-west-1.amazonaws.com/portfolio/tron.png" />
