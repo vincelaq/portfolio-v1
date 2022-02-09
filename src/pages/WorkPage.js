@@ -109,7 +109,7 @@ const WorkPage = () => {
                                 Develop reports of maintenance work and present data to stakeholders
                             </li>
                             <li className='font-Inter'>
-                                Delegate tasks and project scope with contractors, oversee progress
+                                Delegate tasks and project scope with interns, oversee progress
                             </li>
                         </ul>
                     </div>
