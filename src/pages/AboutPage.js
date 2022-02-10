@@ -13,7 +13,7 @@ const AboutPage = () => {
             </div>
             <div className='flex flex-row pt-6'>
                 <div className='basis-3/5 font-Inter text-slate'>
-                    Hello! My name is Vince and I enjoy building anything from full stack apps to video games. My interests in development started in 2016 when I learned Python and SQL for work in my civil engineering job. My coding work was limited as a civil engineer, but I wanted to continue learning and building things so I self-taught for a several months before enrolling in General Assembly’s Software Engineering Immersive bootcamp.<br/><br/>
+                    Hello! My name is Vince and I enjoy building anything from full stack apps to video games. My interests in development started in 2016 when I learned Python and SQL for work in my civil engineering job. My coding work was limited as a civil engineer, but I wanted to continue learning and building things so I self-taught for a several years before enrolling in General Assembly’s Software Engineering Immersive bootcamp.<br/><br/>
                     Fast-forward today, I’ve created and develop quite a few projects which can be found on my GitHub or Work section of my portfolio. Here are a few technologies I've been working with:
                     
                     <ul className='skills-list'>
