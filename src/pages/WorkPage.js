@@ -22,7 +22,7 @@ const WorkPage = () => {
                             <div
                                 onClick={() => handleWorkChange(0)} 
                                 className='border-l-2 border-l-pink h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                NAAM House
+                                UChicago
                             </div>
                             <div 
                                 onClick={() => handleWorkChange(1)} 
@@ -42,18 +42,18 @@ const WorkPage = () => {
                         </div>
                     </div>
                     <div className='basis-4/5 font-Inter text-slate'>
-                        <span className='text-lightest-slate  text-lg font-semibold'>Volunteer Developer</span> 
-                        <span className='text-pink  text-lg font-semibold'> @ NAAM House, Inc.</span>
+                        <span className='text-lightest-slate  text-lg font-semibold'>Software Developer</span> 
+                        <span className='text-pink  text-lg font-semibold'> @ UChicago IPPH.</span>
                         
                         <ul className='work-list'>
                             <li className='font-Inter'>
-                                Write, maintain code for client Naam House a non-profit organization aimed to help veterans in need
+                                Utilize React, TypeScript, Next.js, and Tailwind to develop the frontend of eRMS, an electronic research management system for tracking studies.
                             </li>
                             <li className='font-Inter'>
-                                Work with a variety of different languages and technologies such as JavaScript, React Native, MongoDB, MySQL, Heroku, Vonage, and Expo
+                                Utilize Django, Ninja, Graphql (Hasura), and PostgreSQL to develop the backend of eRMS
                             </li>
                             <li className='font-Inter'>
-                                Communicate with NAAM House representatives regarding design and functionality of the app
+                                Utilize Cypress, Pytest, and Jest for testing the frontend and backend of eRMS.
                             </li>
                         </ul>
                     </div>
@@ -78,7 +78,7 @@ const WorkPage = () => {
                             <div
                                 onClick={() => handleWorkChange(0)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                NAAM House
+                                UChicago
                             </div>
                             <div 
                                 onClick={() => handleWorkChange(1)} 
@@ -133,7 +133,7 @@ const WorkPage = () => {
                             <div
                                 onClick={() => handleWorkChange(0)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                NAAM House
+                                UChicago
                             </div>
                             <div 
                                 onClick={() => handleWorkChange(1)} 
@@ -188,7 +188,7 @@ const WorkPage = () => {
                             <div
                                 onClick={() => handleWorkChange(0)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                NAAM House
+                                UChicago
                             </div>
                             <div 
                                 onClick={() => handleWorkChange(1)} 

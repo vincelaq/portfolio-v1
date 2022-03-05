@@ -16,12 +16,12 @@ const HomePage = () => {
 
                 <p className='font-Inter text-slate text-base my-5'>
                     I’m a software engineer specializing in building (and occasionally <br/>
-                    designing) applications. Currently, I’m focused on building a fullstack <br/>
-                    applications for the non-profit <span className='text-pink'>NAAM House, Inc.</span>
+                    designing) applications. Currently, I’m focused on building software <br/>
+                    for University of Chicago's <span className='text-pink'>Institute of Population and Precision Health</span>
                 </p>
-                <a href="https://github.com/vincelaq/naam-house-app">
+                <a href="https://github.com/vincelaq">
                     <div className='border rounded border-pink text-pink font-Roboto text-s w-fit py-4 px-5 my-16'>
-                        Check out my project!
+                        Check out my projects!
                     </div>
                 </a>
             </div>
