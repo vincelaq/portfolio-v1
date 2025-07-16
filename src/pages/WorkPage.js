@@ -21,29 +21,29 @@ const WorkPage = () => {
                         <div className='flex flex-col w-30'>
                             <div
                                 onClick={() => handleWorkChange(0)} 
-                                className='border-l-2 border-l-pink h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-pink h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 UChicago
                             </div>
                             <div 
                                 onClick={() => handleWorkChange(1)} 
-                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 AdvanceH2
                             </div>
                             <div 
                                 onClick={() => handleWorkChange(2)} 
-                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 VirtualHaus
                             </div>
                             <div
                                 onClick={() => handleWorkChange(3)} 
-                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 SacSewer
                             </div>
                         </div>
                     </div>
                     <div className='basis-4/5 font-Inter text-slate'>
                         <span className='text-lightest-slate  text-lg font-semibold'>Software Developer</span> 
-                        <span className='text-pink  text-lg font-semibold'> @ UChicago IPPH.</span>
+                        <span className='text-pink  text-lg font-semibold'> @ UChicago IPPH</span>
                         
                         <ul className='work-list'>
                             <li className='font-Inter'>
@@ -73,22 +73,22 @@ const WorkPage = () => {
                         <div className='flex flex-col w-30'>
                             <div
                                 onClick={() => handleWorkChange(0)} 
-                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 UChicago
                             </div>
                             <div 
                                 onClick={() => handleWorkChange(1)} 
-                                className='border-l-2 border-l-pink h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-pink h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 AdvanceH2
                             </div>
                             <div 
                                 onClick={() => handleWorkChange(2)} 
-                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 VirtualHaus
                             </div>
                             <div
                                 onClick={() => handleWorkChange(3)} 
-                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 SacSewer
                             </div>
                         </div>
@@ -121,22 +121,22 @@ const WorkPage = () => {
                         <div className='flex flex-col w-30'>
                             <div
                                 onClick={() => handleWorkChange(0)} 
-                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 UChicago
                             </div>
                             <div 
                                 onClick={() => handleWorkChange(1)} 
-                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 AdvanceH2
                             </div>
                             <div
                                 onClick={() => handleWorkChange(2)} 
-                                className='border-l-2 border-l-pink h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-pink h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 VirtualHaus
                             </div>
                             <div
                                 onClick={() => handleWorkChange(3)} 
-                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 SacSewer
                             </div>
                         </div>
@@ -170,22 +170,22 @@ const WorkPage = () => {
                         <div className='flex flex-col w-30'>
                             <div
                                 onClick={() => handleWorkChange(0)} 
-                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 UChicago
                             </div>
                             <div 
                                 onClick={() => handleWorkChange(1)} 
-                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 AdvanceH2
                             </div>
                             <div
                                 onClick={() => handleWorkChange(2)} 
-                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 VirtualHaus
                             </div>
                             <div
                                 onClick={() => handleWorkChange(3)} 
-                                className='border-l-2 border-l-pink h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
+                                className='border-l-2 border-l-pink h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs cursor-pointer'>
                                 SacSewer
                             </div>
                         </div>
