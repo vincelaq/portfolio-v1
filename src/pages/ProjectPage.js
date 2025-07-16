@@ -14,17 +14,17 @@ const ProjectPage = () => {
             <div className='my-12'>
                 <div className='feature'>
                     <div className='project-content-second'>
-                        <div className='font-Roboto font-light text-xs-sm text-pink w-full text-right my-1'>
+                        <div className='font-Roboto font-light text-xs-sm text-pink w-full text-left my-1'>
                             Featured Project
                         </div>
-                        <div className='font-Inter font-bold text-2xl w-full text-lightest-slate text-right mb-6'>
+                        <div className='font-Inter font-bold text-2xl w-full text-lightest-slate text-left mb-6'>
                             Retro Future
                         </div>
-                        <div className='bg-light-navy py-5 pl-7 pr-4 text-light-slate text-right text-sm-base rounded'>
+                        <div className='bg-light-navy py-5 pl-7 pr-4 text-light-slate text-left text-sm-base rounded'>
                             A marketplace for the world’s most coveted items in the smartest way possible. Buy and sell the vintage apparel, electronics, music, and accessories with the confidence of Retro Future product verification process to protect both buyers and sellers.
                         </div>
 
-                        <div className='flex flex-row justify-end font-Roboto text-sm text-slate my-3'>
+                        <div className='flex flex-row justify-start font-Roboto text-sm text-slate my-3'>
                             <span className='px-4'>Django</span>
                             <span className='px-4'>React</span>
                             <span className='px-4'>Redux</span>    
@@ -32,7 +32,7 @@ const ProjectPage = () => {
                             <span className='pl-4'>AWS</span>
                         </div>
                         
-                        <div className='flex flex-row justify-end'>
+                        <div className='flex flex-row justify-start'>
                             <a href="https://github.com/vincelaq/retro-future">
                                 <div className='m-3'>
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#a8b2d1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6">
@@ -66,17 +66,17 @@ const ProjectPage = () => {
             <div className='my-12'>
                 <div className='feature'>
                     <div className='project-content-second'>
-                        <div className='font-Roboto font-light text-xs-sm text-pink w-full text-right my-1'>
+                        <div className='font-Roboto font-light text-xs-sm text-pink w-full text-left my-1'>
                             Featured Project
                         </div>
-                        <div className='font-Inter font-bold text-2xl w-full text-lightest-slate text-right mb-6'>
+                        <div className='font-Inter font-bold text-2xl w-full text-lightest-slate text-left mb-6'>
                             DevBook
                         </div>
                         <div className='bg-light-navy py-5 pr-7 pl-8 text-light-slate text-left text-sm-base rounded'>
                             A new social media platform where software developers can share their code, ask for help, share ideas, discuss events and make valuable connections. DevBook is focused on keeping up with industry standards. It will be a place where you can find the answers to your development issues in a modern way.
                         </div>
 
-                        <div className='flex flex-row justify-end font-Roboto text-sm text-slate my-3'>
+                        <div className='flex flex-row justify-start font-Roboto text-sm text-slate my-3'>
                             <span className='pr-4'>Node</span>
                             <span className='px-4'>Express</span>
                             <span className='px-4'>React</span>   
@@ -84,7 +84,7 @@ const ProjectPage = () => {
                             <span className='px-4'>AWS</span>
                         </div>
                         
-                        <div className='flex flex-row justify-end'>
+                        <div className='flex flex-row justify-start'>
                             <a href="https://github.com/vincelaq/dev-social-media">
                                 <div className='my-3 mr-3'>
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#a8b2d1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6">
@@ -117,23 +117,23 @@ const ProjectPage = () => {
             <div className='my-12'>
                 <div className='feature'>
                     <div className='project-content-second'>
-                        <div className='font-Roboto font-light text-xs-sm text-pink w-full text-right my-1'>
+                        <div className='font-Roboto font-light text-xs-sm text-pink w-full text-left my-1'>
                             Featured Project
                         </div>
-                        <div className='font-Inter font-bold text-2xl w-full text-lightest-slate text-right mb-6'>
+                        <div className='font-Inter font-bold text-2xl w-full text-lightest-slate text-left mb-6'>
                             Historic Stops
                         </div>
                         <div className='bg-light-navy py-5 pl-7 pr-4 text-light-slate text-left text-sm-base rounded'>
                             Commissioned us to build a travel community, code-named Project Wayfarer, for users to share tips about their favorite locations around the world. The client has provided basic wireframes and user stories.
                         </div>
 
-                        <div className='flex flex-row justify-end font-Roboto text-sm text-slate my-3'>
+                        <div className='flex flex-row justify-start font-Roboto text-sm text-slate my-3'>
                             <span className='px-4'>Django</span> 
                             <span className='px-4'>PostgreSQL</span>
                             <span className='pl-4'>AWS</span>
                         </div>
                         
-                        <div className='flex flex-row justify-end'>
+                        <div className='flex flex-row justify-start'>
                             <a href="https://github.com/rsato1007/wayfarer-project">
                                 <div className='m-3'>
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#a8b2d1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6">
@@ -165,24 +165,24 @@ const ProjectPage = () => {
             <div className='my-12'>
                 <div className='feature'>
                     <div className='project-content-second'>
-                        <div className='font-Roboto font-light text-xs-sm text-pink w-full text-right my-1'>
+                        <div className='font-Roboto font-light text-xs-sm text-pink w-full text-left my-1'>
                             Featured Project
                         </div>
-                        <div className='font-Inter font-bold text-2xl w-full text-lightest-slate text-right mb-6'>
+                        <div className='font-Inter font-bold text-2xl w-full text-lightest-slate text-left mb-6'>
                             Tron
                         </div>
                         <div className='bg-light-navy py-5 pr-7 pl-8 text-light-slate text-left text-sm-base rounded'>
                             A head-to-head version of classic game "Snake". Unlike the original game where the tail grows longer as you collect apples, TRON Lightcycle Battle does not have a tail, but any space that has been occupied by the player(s) in the past will be considered a wall to crash into for the entire round.
                         </div>
 
-                        <div className='flex flex-row justify-end font-Roboto text-sm text-slate my-3'>
+                        <div className='flex flex-row justify-start font-Roboto text-sm text-slate my-3'>
                             <span className='pr-4'>JavaScript</span>
                             <span className='px-4'>HTML</span>
                             <span className='px-4'>CSS</span>   
                             <span className='px-4'>jQuery</span>
                         </div>
                         
-                        <div className='flex flex-row justify-end'>
+                        <div className='flex flex-row justify-start'>
                             <a href="https://github.com/vincelaq/tron-lightcycle-game">
                                 <div className='my-3 mr-3'>
                                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#a8b2d1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6">
@@ -203,7 +203,7 @@ const ProjectPage = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='project-image-second '>
+                    <div className='project-image-second'>
                         <div className='project-image-wrapper object-fill'>
                             <img className='w-full h-full opacity-60' src="https://retro-future-flex-525.s3.us-west-1.amazonaws.com/portfolio/tron.png" alt="tron front page screenshot"/>
                         </div>
