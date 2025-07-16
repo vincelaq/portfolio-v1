@@ -15,7 +15,7 @@ const HomePage = () => {
                 </div>
 
                 <p className='font-Inter text-slate text-base my-5'>
-                    I’m a software engineer specializing in building (and occasionally <br/>
+                    I’m a software developer specializing in building (and occasionally <br/>
                     designing) applications. Currently, I’m focused on building software <br/>
                     for University of Chicago's <span className='text-pink'>Institute of Population and Precision Health</span>
                 </p>

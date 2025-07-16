@@ -27,17 +27,17 @@ const WorkPage = () => {
                             <div 
                                 onClick={() => handleWorkChange(1)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                Sac Sewer
+                                AdvanceH2
                             </div>
                             <div 
                                 onClick={() => handleWorkChange(2)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                CA Energy
+                                VirtualHaus
                             </div>
                             <div
                                 onClick={() => handleWorkChange(3)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                FMB, Inc.
+                                Sac Sewer
                             </div>
                         </div>
                     </div>
@@ -47,23 +47,19 @@ const WorkPage = () => {
                         
                         <ul className='work-list'>
                             <li className='font-Inter'>
-                                Utilize React, TypeScript, Next.js, and Tailwind to develop the frontend of eRMS, an electronic research management system for tracking studies.
+                                Engineered the frontend of eRMS—an electronic research management system—in React/TypeScript enhancing user experience and interface responsiveness across study tracking workflows.
                             </li>
                             <li className='font-Inter'>
-                                Utilize Django, Ninja, Graphql (Hasura), and PostgreSQL to develop the backend of eRMS
+                                Developed and maintained scalable backend services for eRMS using Django, and PostgreSQL, improving data retrieval efficiency.
                             </li>
                             <li className='font-Inter'>
-                                Utilize Cypress, Pytest, and Jest for testing the frontend and backend of eRMS.
+                                Implemented comprehensive test coverage across the full stack ensuring high system reliability and minimizing regressions.
                             </li>
                         </ul>
                     </div>
-                   
                 </div>
-    
-                
             </div>
         );
-
     } else if (work === 1) {
         return (
             <div id="work" className='flex flex-col justify-start items-center bg-navy max-w-2xl pb-40 mb-20 pl-16'>
@@ -83,40 +79,33 @@ const WorkPage = () => {
                             <div 
                                 onClick={() => handleWorkChange(1)} 
                                 className='border-l-2 border-l-pink h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                Sac Sewer
+                                AdvanceH2
                             </div>
                             <div 
                                 onClick={() => handleWorkChange(2)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                CA Energy
+                                VirtualHaus
                             </div>
                             <div
                                 onClick={() => handleWorkChange(3)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                FMB, Inc.
+                                SacSewer
                             </div>
                         </div>
                     </div>
                     <div className='basis-4/5 font-Inter text-slate'>
-                        <span className='text-lightest-slate  text-lg font-semibold'>Civil Engineer</span> 
-                        <span className='text-pink  text-lg font-semibold'> @ Sacramento Area Sewer District</span>
-                        
+                        <span className='text-lightest-slate  text-lg font-semibold'>Software Developer (Freelance)</span> 
+                        <span className='text-pink  text-lg font-semibold'> @ AdvanceH2</span>
                         <ul className='work-list'>
                             <li className='font-Inter'>
-                                Analyze and interpret data to problem solve and make recommendations
+                                Designed the frontend of AdvanceH2, an AI-powered platform that aggregates hydrogen energy news and articles, improving information accessibility for researchers and industry professional.
                             </li>
                             <li className='font-Inter'>
-                                Develop reports of maintenance work and present data to stakeholders
-                            </li>
-                            <li className='font-Inter'>
-                                Delegate tasks and project scope with interns, oversee progress
+                                Implemented robust backend infrastructure for AdvanceH2 using Supabase and Prisma, streamlining data handling and accelerating feature deployment
                             </li>
                         </ul>
                     </div>
-                   
                 </div>
-    
-                
             </div>
         );
     } else if (work === 2) {
@@ -138,40 +127,34 @@ const WorkPage = () => {
                             <div 
                                 onClick={() => handleWorkChange(1)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                Sac Sewer
+                                AdvanceH2
                             </div>
                             <div
                                 onClick={() => handleWorkChange(2)} 
                                 className='border-l-2 border-l-pink h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                CA Energy
+                                VirtualHaus
                             </div>
                             <div
                                 onClick={() => handleWorkChange(3)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                FMB, Inc.
+                                SacSewer
                             </div>
                         </div>
                     </div>
                     <div className='basis-4/5 font-Inter text-slate'>
-                        <span className='text-lightest-slate  text-lg font-semibold'>Mechanical Engineer Intern</span> 
-                        <span className='text-pink  text-lg font-semibold'> @ CA Energy Commissions</span>
+                        <span className='text-lightest-slate  text-lg font-semibold'>Frontend Developer (Freelance)</span> 
+                        <span className='text-pink  text-lg font-semibold'> @ VirtualHaus</span>
                         
                         <ul className='work-list'>
                             <li className='font-Inter'>
-                                Corrected project cost and expenditure reports of existing and potential energy projects funded by the State of California
+                                Developed responsive, high-performance user interfaces for a 3D application using React/TypeScript, streamlining component architecture and enhancing user experience.
                             </li>
                             <li className='font-Inter'>
-                                Reviewed energy research reports prior to management review
-                            </li>
-                            <li className='font-Inter'>
-                                Communicate with team members regarding reports and engineering calculations
+                                Designed intuitive and visually cohesive user interface layouts, aligning with user experience best practices and brand guidelines
                             </li>
                         </ul>
                     </div>
-                   
                 </div>
-    
-                
             </div>
         );
     } else if (work === 3) {
@@ -193,41 +176,37 @@ const WorkPage = () => {
                             <div 
                                 onClick={() => handleWorkChange(1)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                Sac Sewer
+                                AdvanceH2
                             </div>
                             <div
                                 onClick={() => handleWorkChange(2)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                CA Energy
+                                VirtualHaus
                             </div>
                             <div
                                 onClick={() => handleWorkChange(3)} 
                                 className='border-l-2 border-l-pink h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                FMB, Inc.
+                                SacSewer
                             </div>
                         </div>
                     </div>
                     <div className='basis-4/5 font-Inter text-slate'>
-                        <span className='text-lightest-slate  text-lg font-semibold'>Mechanical Engineer Intern</span> 
-                        <span className='text-pink  text-lg font-semibold'> @ Frank M. Booth, Inc.</span>
+                        <span className='text-lightest-slate  text-lg font-semibold'>Civil Engineer</span> 
+                        <span className='text-pink  text-lg font-semibold'> @ Sacramento Area Sewer District</span>
                         
                         <ul className='work-list'>
                             <li className='font-Inter'>
-                                Detailed HVAC and pipe designs for several projects
+                                Analyze and interpret data to problem solve and make recommendations
                             </li>
                             <li className='font-Inter'>
-                            Plotted and spooled pipe designs to be manufactured, fabricated and
-delivered on site
+                                Develop reports of maintenance work and present data to stakeholders
                             </li>
                             <li className='font-Inter'>
-                                Communicate with team members regarding design and engineering calculations
+                                Delegate tasks and project scope with interns, oversee progress
                             </li>
                         </ul>
                     </div>
-                   
                 </div>
-    
-                
             </div>
         );
     }
