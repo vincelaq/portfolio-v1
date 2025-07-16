@@ -37,7 +37,7 @@ const WorkPage = () => {
                             <div
                                 onClick={() => handleWorkChange(3)} 
                                 className='border-l-2 border-l-lightest-navy h-10 p-5 flex flex-col justify-center font-Roboto text-slate text-xs'>
-                                Sac Sewer
+                                SacSewer
                             </div>
                         </div>
                     </div>
@@ -196,13 +196,13 @@ const WorkPage = () => {
                         
                         <ul className='work-list'>
                             <li className='font-Inter'>
-                                Analyze and interpret data to problem solve and make recommendations
+                                Analyzed and interpreted data to problem solve and make recommendations
                             </li>
                             <li className='font-Inter'>
-                                Develop reports of maintenance work and present data to stakeholders
+                                Developed reports of maintenance work and presented data to stakeholders
                             </li>
                             <li className='font-Inter'>
-                                Delegate tasks and project scope with interns, oversee progress
+                                Delegated tasks and project scope with contractors, oversee progress
                             </li>
                         </ul>
                     </div>
